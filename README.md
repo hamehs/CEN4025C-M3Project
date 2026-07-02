@@ -1,26 +1,10 @@
 # CEN4025C-M3Project
 
-<<<<<<< HEAD
 ## Module 3 - Angular HttpClient Integration
-
-This project connects the Angular TaskManager frontend to the Spring Boot backend using Angular HttpClient.
-
-### Features
-
-- Retrieve Tasks from REST APIs
-- Retrieve Users from REST APIs
-- Retrieve Subtasks from REST APIs
-- Display data in Angular components
-
-## Running Application
-
-![Running Application](module3-screenshot.png)
-=======
-## Module 3 – Angular HttpClient Integration
 
 ### Project Overview
 
-This project connects the Angular TaskManager frontend to the Spring Boot backend using Angular HttpClient. The frontend retrieves data from RESTful API endpoints and displays tasks, users, and subtasks.
+This project connects the Angular TaskManager frontend to the Spring Boot backend using Angular HttpClient. The frontend retrieves data from RESTful REST API endpoints and displays tasks, users, and subtasks.
 
 ## Technologies Used
 
@@ -37,16 +21,16 @@ This project connects the Angular TaskManager frontend to the Spring Boot backen
 - Retrieve Tasks from the Spring Boot backend
 - Retrieve Users from the Spring Boot backend
 - Retrieve Subtasks from the Spring Boot backend
-- Display data using Angular components
+- Display task and user data in Angular components
 - RESTful API integration using Angular HttpClient
 
 ## REST API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | `/tasks` | Returns all tasks |
-| GET | `/users` | Returns all users |
-| GET | `/subtasks` | Returns all subtasks |
+| GET | `/tasks` | Retrieve all tasks |
+| GET | `/users` | Retrieve all users |
+| GET | `/subtasks` | Retrieve all subtasks |
 
 ## Running the Application
 
@@ -62,11 +46,13 @@ http://localhost:8080
 
 ### Start the Angular Frontend
 
+Open a terminal in the `TaskManagerFrontEnd` folder and run:
+
 ```bash
 ng serve
 ```
 
-Open your browser and navigate to:
+Then open:
 
 ```
 http://localhost:4200
@@ -97,11 +83,9 @@ http://localhost:4200
 
 ## Screenshot
 
-Add your project screenshot to this repository as **module3-screenshot.png**.
+The application successfully retrieves data from the Spring Boot backend.
 
-```markdown
-![Task Manager](module3-screenshot.png)
-```
+![Task Manager Screenshot](module3-screenshot.png)
 
 ## Assignment Summary
 
@@ -113,4 +97,3 @@ This project demonstrates:
 - Displaying Users
 - Displaying Subtasks
 - Communication between Angular and Spring Boot
->>>>>>> 1494b54 (Update README and screenshot)
