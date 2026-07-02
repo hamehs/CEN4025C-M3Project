@@ -85,7 +85,7 @@ http://localhost:4200
 
 The application successfully retrieves data from the Spring Boot backend.
 
-![Task Manager Screenshot](module3-screenshot.png)
+![Task Manager Screenshot](module3-screenshot-v2.png)
 
 ## Assignment Summary
 
